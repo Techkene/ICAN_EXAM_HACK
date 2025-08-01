@@ -1,73 +1,107 @@
-# Welcome to your Lovable project
+# ExamHack – ICAN Digital Exam Platform
 
-## Project info
+ExamHack is a secure, accessible, and AI-powered web application designed to transform the digital exam experience for ICAN (Institute of Chartered Accountants of Nigeria) students. It was developed as part of the iHack4SDG Hackathon to champion SDG 4: Quality Education by improving exam preparation, accessibility, proctoring, and mentorship for aspiring chartered accountants.
 
-**URL**: https://lovable.dev/projects/88d56662-f327-461e-8c77-8a44c588a8b8
+---
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+### Candidate Tools
+- 📚 Course Dashboard: View enrolled levels (ATS, Foundation, Skills, Professional)
+- 📝 Mock Exams: Timed or untimed ICAN-standard tests with instant scoring
+- 📈 Performance Analytics: Track scores, study patterns, and progress over time
+- 🤖 Smart Recommendations: Get suggestions on topics to revise, mock exams to try, and mentors to connect with
+- 📅 AI Study Planner: Personalized reading schedule based on exam goals and habits
 
-**Use Lovable**
+### Exam Security
+-  Live AI Proctoring: Detect multiple faces, suspicious movement, and background noise
+-  Anomaly Scoring Engine: Flags exam violations in real time and logs for review
+-  Tamper Detection: Validates exam sessions and prevents manipulation
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/88d56662-f327-461e-8c77-8a44c588a8b8) and start prompting.
+###  Mentorship & Admin
+-  Mentorship Hub: Link with chartered accountants based on subjects or learning goals
+-  Mentor Dashboard: Track mentee progress and provide targeted feedback
+-  Admin Dashboard: View system-wide analytics, user behavior, and anomaly logs
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+##  Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+| Layer         | Tech Used                                |
+|---------------|-------------------------------------------|
+| Frontend      | React, Tailwind CSS, WebRTC, TensorFlow.js |
+| Backend       | Supabase (PostgreSQL, Auth, Realtime)     |
+| Database      | Supabase PostgreSQL                       |
+| AI/ML Models  | scikit-learn, spaCy, OpenCV.js, MediaPipe |
+| Auth & Access | Supabase Auth                             |
+| Analytics     | Google Analytics, Custom Event Logs       |
+| Deployment    | Vercel + Supabase Hosting                 |
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+##  Target Users
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+| User Type       | Description |
+|-----------------|-------------|
+| ATS/ICAN Students | Those preparing for ATSWA, Foundation, Skills, and Professional level exams |
+| Mentors (Chartered Accountants) | Volunteers helping candidates with feedback and encouragement |
+| Admins           | ICAN reps monitoring exam integrity and platform usage |
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+##  Setup Instructions
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Clone the repository
+git clone https://github.com/your-username/examhack.git
+cd examhack
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+>  Ensure Supabase project and environment variables are properly configured.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## ✅ Status
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- ✅ Completed for iHack4SDG Hackathon  
+- ✅ Demo-ready  
+- ✅ Tested in Chrome, Edge and Firefox  
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+##  Team
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- Data Scientist – Built analytics, personalization engine, and AI planner  
+- Software Engineer – Developed frontend/backend, integrated proctoring tools  
+- UI/UX Designer – Crafted user-friendly exam, dashboard, and mentor interfaces  
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/88d56662-f327-461e-8c77-8a44c588a8b8) and click on Share -> Publish.
+##  License
 
-## Can I connect a custom domain to my Lovable project?
+MIT License © 2025 — ExamHack Team (The EdutechtioKnights)
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+##  Acknowledgments
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- iHack4SDG Hackathon  
+- ICAN Nigeria  
+- Supabase & Open Source AI Tools  
+- All ICAN students who inspired this project   
+
+---
+
+##  Author
+
+Your Name Here  
+GitHub: [Teachkene](https://github.com/Techkene)  
+LinkedIn: [Kenechukwu Anoliefo](https://www.linkedin.com/in/kenechukwuanoliefo/)
+
+Your Name Here  
+GitHub: [HornD1st(https://github.com/HornD1st)  
+LinkedIn: [Chimaobi Okolo](https://www.linkedin.com/in/chimaobi-okolo)
