@@ -52,7 +52,7 @@ ExamHack is a secure, accessible, and AI-powered web application designed to tra
 ##  Setup Instructions
 
 # Clone the repository
-git clone https://github.com/your-username/examhack.git
+git clone https://github.com/Techkene/ICAN_EXAM_HACK.git
 cd examhack
 
 # Install dependencies
